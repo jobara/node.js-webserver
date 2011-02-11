@@ -1,0 +1,82 @@
+/* BRANDING */
+#branding {
+    margin: 0;
+}
+
+#branding a {
+    text-indent: -100em;
+    display: block;
+    background: url('images/FluidSiteHeader.png') no-repeat top left;
+    height:99px;
+}
+
+/* BODY */
+html {
+     background-image: url(images/FluidSiteHeaderBG.png);
+     background-repeat: repeat-x;
+     background-position: top center;
+     color: #333333;
+}
+
+body {
+    background-image: url(images/FluidSiteMainBG.png);
+    background-repeat: repeat-x; 
+    background-position: left bottom;
+    font-size: 0.9em !important;
+    line-height: 1.5em !important;
+
+}
+
+h2 {
+    font-size:1.5em; 
+    line-height:1.8em;
+}
+
+h3 {
+     font-size:1.3em; 
+     line-height:1.6em;
+}
+
+a {
+     text-decoration: none;
+     color: #577F00;
+}
+
+:focus {
+     outline: 1px solid white;
+}
+
+#content {
+     margin-top: 45px;
+}
+
+/* SITE INFO */
+#site-info {
+    height:80px;
+    background-color: #333333;
+}
+
+#site-info p {
+    background-image: url('uploads/images/FluidFooterLogo.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:75px;
+}
+
+
+/* Demo Portal bar */
+
+.portalLink {
+    padding:10px;
+    font-size:1.3em;
+    font-weight:bold;
+    text-align:center;    
+    border:1px solid #9FAF78;
+    background-color:#FAFFEF;
+}
+.portalLink a {
+    text-decoration:underline;
+}
